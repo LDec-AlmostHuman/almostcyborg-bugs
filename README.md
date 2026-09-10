@@ -1,0 +1,2 @@
+# almostcyborg-bugs
+Bugs reporting
