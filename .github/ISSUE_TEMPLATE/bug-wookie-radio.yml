@@ -1,0 +1,56 @@
+name: Wookie-Radio - bug report
+description: Something in Wookie-Radio does not work as it should
+title: "[Wookie-Radio] "
+labels: ["bug", "project:wookie-radio"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This report is for **Wookie-Radio**. Reports here are **public**, so please do not include passwords, personal
+        data or private links. For a private question, use the contact form on almostcyb.org instead.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Settings, tap the version number.
+      placeholder: "e.g. 2.0047"
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: Device and system version
+      placeholder: "e.g. iPhone 15, iOS 26.1 or Galaxy A37, Android 16"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem in a few sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do just before it went wrong?
+      placeholder: |
+        1. Open the app
+        2. Tap ...
+        3. ...
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)
+      description: Drag and drop images into this box, or paste them. Hide anything private first.
+    validations:
+      required: false
